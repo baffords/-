@@ -1,0 +1,403 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.layout {
+	display: block;
+	width: 1196px;
+	margin: 0 auto;
+}
+
+header {
+	display: block;
+	width: 100%;
+	height: 90px;
+	background-color: #ffffff;
+}
+
+.logo {
+	display: block;
+	float: left;
+	line-height: 90px;
+	cursor: pointer;
+}
+
+header nav {
+	display: block;
+	float: right;
+	line-height: 90px;
+}
+
+header nav a {
+	font-family: Ububtu-Regular;
+	font-size: 16px;
+	color: #2d394c;
+	opacity: 0.84;
+	text-transform: uppercase;
+	text-decoration: none;
+	margin-left: 20px;
+}
+
+content.banner {
+	display: block;
+	position: relative;
+	z-index: 1;
+	width: 100%;
+	height: 358px;
+	background-color: #54a3da;
+	background-image: linear-gradient(to top, rgba(147, 147, 147, 0.15) 0%, rgba(217, 239, 255, 0.15) 44%, rgba(193, 193, 193, 0.15) 100%);
+	padding-top: 230px;
+	padding-bottom: 256px; 
+}
+
+h1 {
+	font-family: Ubuntu-Bold;
+	font-size: 52px;
+	color: #f7f6f2;
+	text-transform: uppercase;
+	margin: 0;
+	text-align: left;
+	font-weight: 700;
+}
+
+p.banner {
+	font-family: Ubuntu-Light;
+	font-size: 24px;
+	color: #ffffff;
+	text-align: left;
+}
+
+div.sign-up-block {
+	display: block;
+	margin-top: 68px;
+	width: 50%;
+}
+
+p.type-1, p.type-2 {
+	font-family: Ubuntu-Medium;
+	font-size: 16px;
+	color: #f7f7f7;
+	font-weight: 500;
+	float: left;
+}
+
+p.type-2 {
+	text-transform: uppercase;
+	font-weight: 700;
+	width: 57px;
+	height: 27px;
+	border-radius: 6px;
+	background-color: #ffce54;
+	margin-left: 10px;
+	line-height: 20px;
+}
+ 
+input.email-small {
+	width: 400px;
+	height: 54px;
+	border-radius: 6px;
+	background-color: #fff;
+	border: none;
+	line-height: 54px;
+	padding-left: 24px;
+	font-family: Ubuntu-Light;
+	font-size: 18px;
+	color: #2d394c;
+	margin-right: 30px;
+}
+
+input.btn-small {
+	width: 114px;
+	height: 54px;
+	background-color: #77c344;
+	border-radius: 6px;
+	border: none;
+	color: #ffffff;
+	font-family: Ubuntu-Medium;
+	font-size: 18px;
+	text-transform: uppercase;
+	font-weight: 500;
+}
+
+img.type-1 {
+	position: absolute;
+	top: 148px;
+	left: 120px;
+}
+
+img.type-2 {
+	position: absolute;
+	top: 230px;
+	right: 150px;
+}
+
+img.type-3 {
+	position: absolute;
+	bottom: 88px;
+	left: 154px;
+}
+
+img.type-4 {
+	position: absolute;
+	bottom: 114px;
+	right: 80px;
+}
+
+img.type-5 {
+	position: absolute;
+	top: 92px;
+	right: 30px;	
+}
+
+
+content.partner-container {
+	display: block;
+	width: 100%;
+	height: 100px;
+	background-color: #f8f8f8;
+	padding-top: 60px;
+}
+
+.partner-item {
+	display: block;
+	float: left;
+	width: 15%;
+	margin-left: 50px;
+	cursor: pointer;
+}
+
+content.suggest-block {
+	display: block;
+	position: relative;
+	padding-top: 120px;
+	padding-bottom: 120px;
+	width: 100%;
+	height: auto;
+	background-color: #ffffff;
+
+}
+
+h2 {
+	font-family: Ubuntu-Medium;
+	font-size: 40px;
+	opacity: 0.85;
+	color: #2d394c;
+	font-weight: 500;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 0;
+}
+
+div.suggest-list {
+	display: block;
+	margin-top: 140px;
+	width: 50%;
+
+}
+
+div.suggest-item img {
+	float: left;
+	margin-right: 14px;
+}
+
+h5 {
+	font-family: Ubuntu-Medium;
+	font-size: 22px;
+	opacity: 0.9;
+	color: #2d394c;
+	line-height: 50px;
+}
+
+
+div.suggest-item p {
+	font-family: Open-Sans;
+	font-size: 14px;
+	color: #9499a2;
+}
+
+
+img.type-6 {
+	position: absolute;
+	top: 290px;
+	right: 0;
+	width: 50%;
+}
+
+
+content.advrt-block {
+	display: block;
+	position: relative;
+	z-index: 3;
+	width: 100%;
+	height: auto;
+	padding-top: 120px;
+	padding-bottom: 120px;
+	background-image: url(../images/layer-ships.png);
+	background-position: right;
+	background-repeat: no-repeat;
+	background-color: #f6f6f7;
+	text-align: center;
+}
+
+.slider-container {
+	display: block;
+	margin-top: 160px;
+	width: 50%;
+
+}
+
+.slider-container img {
+	float: left;
+	margin-right: 20px;
+}
+
+h4 {
+	font-family: Ububtu-Regular;
+	font-size: 28px;
+	color: #2d394c;
+	opacity: 0.9;
+	font-weight: 400;
+	line-height: 50px;
+	text-align: left;
+}
+
+.slider-container p {
+	font-family: Open-Sans;
+	font-size: 16px;
+	opacity: 0.9;
+	font-weight: 400;
+	color: #5a626e;
+}
+
+.paginator {
+	display: block;
+	margin-top: 40px;
+
+}
+
+.page-item {
+	display: inline-block;
+	margin-right: 20px;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	line-height: 30px;
+
+}
+
+.page-item:hover {
+	background-color: #64a4d7;
+	
+}
+
+.page-item a {
+	font-family: Ubuntu-Bold;
+	font-size: 15px;
+	color: #2d394c;
+	opacity: 0.27;
+	font-weight: 500;
+	text-decoration: none;
+}
+
+.page-item a:hover {
+	color: #ffffff;
+	opacity: 1;
+	
+}
+
+content.register-block {
+	display: block;
+	width: 100%;
+	height: auto;
+	padding-top: 128px;
+	padding-bottom: 100px;
+	background-color: #ffffff;
+}
+
+
+content.register-block p {
+	font-family: Ubuntu-Italic-Light;
+	font-size: 24px;
+	font-weight: 300;
+	color: #5a626e;
+	margin-top: 40px;
+	margin-bottom: 60px;
+	text-align: center;
+}
+
+input.email-large {
+	width: 630px;
+	height: 68px;
+	border-radius: 4px;
+	border: 1px solid #d1d1d1;
+	background-color: #fff;
+	padding-left: 24px;
+	font-family: Open-Sans;
+	font-size: 21px;
+	color: #5a626e;
+	font-weight: 300;
+	background-image: url(../images/icon-mail.png);
+	background-repeat: no-repeat;
+	background-position: right 20px center;
+	margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+input.btn-large {
+	width: 190px;
+	height: 68px;
+	background-color: #77c344;
+	border-radius: 6px;
+	border: none;
+	font-family: Ubuntu-Medium;
+	font-size: 20px;
+	color: #ffffff;
+	font-weight: 500;
+	text-transform: uppercase;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+
+footer {
+	display: block;
+	width: 100%;
+	height: 90px;
+	background-color: #f9f9f9;
+
+}
+
+footer nav {
+	display: block;
+	float: right;
+	line-height: 90px
+	
+}
+
+footer nav a {
+	font-family: Ubuntu-Light;
+	font-size: 14px;
+	font-weight: 300;
+	opacity: 0.9;
+	color: #4d5664;
+	text-transform: uppercase;
+	text-decoration: none;
+	margin-left: 22px;
+	margin-right: 22px;
+}
+
+.social {
+	display: block;
+	float: right;
+	height: 30px;
+	margin-top: 30px;
+	border-left: 1px solid #d4d4d4;
+}
+
+.social img {
+	margin-left: 20px;
+}
+
+
